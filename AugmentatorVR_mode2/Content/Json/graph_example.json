@@ -1,0 +1,1661 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    {
+      "@base": "https://edurell.dibris.unige.it/annotator/manu/CQIEu6wFGR8/",
+      "@version": 1.1,
+      "edu": "https://teldh.github.io/edurell#"
+    }
+  ],
+  "@graph": [
+    {
+      "body": "concept_fotogrammetria",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann24",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_interpretativo"
+        },
+        "id": "_:N083770cb9b504aa0a9b6279993697910",
+        "selector": {
+          "edu:conllSentId": "22",
+          "edu:conllWordId": "11",
+          "id": "_:Ne7d890c6765242f5913e8218f6393958",
+          "type": "edu:InstantSelector",
+          "value": "00:01:49.46^^xsd:dateTime"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fotogrammetria",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann28",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_fotogrammetria_analitica"
+        },
+        "id": "_:Ne4798ba9dda24b2899e8ac017db8cba1",
+        "selector": {
+          "edu:conllSentId": "29",
+          "edu:conllWordId": "1",
+          "id": "_:N76a83af0721d44b8b24279037ca67f7c",
+          "type": "edu:InstantSelector",
+          "value": "00:02:25.44^^xsd:dateTime"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_metreo",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann23",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_fotogrammetria"
+        },
+        "id": "_:N6f321705e7d442f7b5a36a098240ad93",
+        "selector": {
+          "edu:conllSentId": "4",
+          "edu:conllWordId": "5",
+          "id": "_:Ndeabd27f595546458ea09213fc737f0c",
+          "type": "edu:InstantSelector",
+          "value": "00:00:17.52^^xsd:dateTime"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fotogrammetria_analitica",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann16",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:N941d759dc2134a08bce35c6de05e8ce8",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "31",
+            "id": "_:Nf07fd5315e8e44fbb2ea88db9ac9930d",
+            "type": "edu:InstantSelector",
+            "value": "00:02:35.90^^xsd:dateTime"
+          },
+          "id": "_:N7f6a3188a4504c3abe0bad8fcb1e8bfb",
+          "startSelector": {
+            "edu:conllSentId": "28",
+            "id": "_:Nf4c6d491bb344e67b89576b07d4359f3",
+            "type": "edu:InstantSelector",
+            "value": "00:02:24.10^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "id": "video_CQIEu6wFGR8",
+      "type": "Video"
+    },
+    {
+      "body": "concept_fotogrammetria_metrica",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann13",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:N79cf493baa7f42a2870088f1dd78566c",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "25",
+            "id": "_:N9f038f490b1d4b3fb06f582eee9684e7",
+            "type": "edu:InstantSelector",
+            "value": "00:01:58.27^^xsd:dateTime"
+          },
+          "id": "_:N9ff1f52fe51c4cc3bff74c863e73c001",
+          "startSelector": {
+            "edu:conllSentId": "23",
+            "id": "_:N56265d8e748449e888918d442d2210ab",
+            "type": "edu:InstantSelector",
+            "value": "00:01:50.44^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fotogrammetria",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann33",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_fotogrammetria_terrestre"
+        },
+        "id": "_:Nb31e3397b45146cdb21241aa876d41ef",
+        "selector": {
+          "edu:conllSentId": "38",
+          "edu:conllWordId": "2",
+          "id": "_:N2a15368b23fd41398695b04873b28204",
+          "type": "edu:InstantSelector",
+          "value": "00:03:10.32^^xsd:dateTime"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_misurazioni",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann20",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_fotogrammetria"
+        },
+        "id": "_:N7d7dbfe76c63423089dfdd05d3e6ae7a",
+        "selector": {
+          "edu:conllSentId": "4",
+          "edu:conllWordId": "5",
+          "id": "_:N90c4746739f54c728fac949ee3319e00",
+          "type": "edu:InstantSelector",
+          "value": "00:00:17.52^^xsd:dateTime"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_interpretativo",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann14",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:N0926c333a224459eafa12225115c87d3",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "1",
+            "id": "_:N7eba0749993947c4bd3105e2a898e497",
+            "type": "edu:InstantSelector",
+            "value": "00:02:03.40^^xsd:dateTime"
+          },
+          "id": "_:N963e238df9cb42598b3fa6706e038376",
+          "startSelector": {
+            "edu:conllSentId": "24",
+            "id": "_:N95af854acc32400fab18e1c8e7e14cca",
+            "type": "edu:InstantSelector",
+            "value": "00:01:58.10^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fotogrammetria",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann31",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_fotogrammetria_digitale"
+        },
+        "id": "_:N0ccb0fe613454a46a0809b1d78bbf4c8",
+        "selector": {
+          "edu:conllSentId": "34",
+          "edu:conllWordId": "8",
+          "id": "_:Nd4de661befbd4e2c9b4727efc6c75ad1",
+          "type": "edu:InstantSelector",
+          "value": "00:02:49.56^^xsd:dateTime"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fotogrammetria_terrestre",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann2",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:N89738d3db6054fb691ac46f32a7a1612",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "38",
+            "id": "_:Nfc5efc0dc85e4b14b58aaa204f62a932",
+            "type": "edu:InstantSelector",
+            "value": "00:03:13.12^^xsd:dateTime"
+          },
+          "id": "_:N9fdac027f0aa4be49a55ea694d6e7bd8",
+          "startSelector": {
+            "edu:conllSentId": "0",
+            "id": "_:N0ade982303b94782bc2d3b116f05f3c3",
+            "type": "edu:InstantSelector",
+            "value": "00:03:04.26^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_architetto_Albrecht_Meidenboy",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann3",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:N1acd549aba6543c39b80bf0770a59757",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "6",
+            "id": "_:Nbeff7d4b74c14c15a8553227f1248ff4",
+            "type": "edu:InstantSelector",
+            "value": "00:00:26.60^^xsd:dateTime"
+          },
+          "id": "_:Nf554a1823d7f43c1a2fd45cb9563bcdc",
+          "startSelector": {
+            "edu:conllSentId": "4",
+            "id": "_:N3b6fecd780da41daba410e2147fe3470",
+            "type": "edu:InstantSelector",
+            "value": "00:00:18.20^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fotogrammetria_aerea",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann1",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:Nb94d5fe243794b10addfc8f656c8c3cb",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "38",
+            "id": "_:N0fbc3afe98f74a88a641321e34706f1c",
+            "type": "edu:InstantSelector",
+            "value": "00:03:13.12^^xsd:dateTime"
+          },
+          "id": "_:Nc3ca463381024aebb4f0916e6c7e1822",
+          "startSelector": {
+            "edu:conllSentId": "0",
+            "id": "_:Nfd74b22e19c64b4099a7a7b5338f160a",
+            "type": "edu:InstantSelector",
+            "value": "00:03:04.26^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_photos",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann19",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_fotogrammetria"
+        },
+        "id": "_:Ndbcb70680b8045dd9f9417dfaa0ae424",
+        "selector": {
+          "edu:conllSentId": "2",
+          "edu:conllWordId": "3",
+          "id": "_:N08f4e7888cd047b28f17f5ef8d92b846",
+          "type": "edu:InstantSelector",
+          "value": "00:00:10.02^^xsd:dateTime"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fotogrammetria",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann25",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_fotogrammetria_metrica"
+        },
+        "id": "_:N9f12b4ef848642dbb9b00af80c6030a7",
+        "selector": {
+          "edu:conllSentId": "23",
+          "edu:conllWordId": "4",
+          "id": "_:Nd40739ac7c924ea79ba81e2b9820b359",
+          "type": "edu:InstantSelector",
+          "value": "00:01:52.56^^xsd:dateTime"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_metreo",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann5",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:N1dc99f815cc348e7b6c853e8d7ed3048",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "10",
+            "id": "_:N1507dfe1b69e47d88f8df772074335cc",
+            "type": "edu:InstantSelector",
+            "value": "00:00:45.12^^xsd:dateTime"
+          },
+          "id": "_:Na87726a1d5e84c0c94102a279f8d6c82",
+          "startSelector": {
+            "edu:conllSentId": "8",
+            "id": "_:Nb702a6eb96e94f48946e48701541d311",
+            "type": "edu:InstantSelector",
+            "value": "00:00:35.92^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fotogrammetria",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann4",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:Na07b33f93fa94e54a0b3c90fa0366ce0",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "8",
+            "id": "_:N9335be7575934f0db401f624c3e092ba",
+            "type": "edu:InstantSelector",
+            "value": "00:00:35.83^^xsd:dateTime"
+          },
+          "id": "_:N795222f7bac84c1899eff3c0b49859f4",
+          "startSelector": {
+            "edu:conllSentId": "6",
+            "id": "_:N690326f859984e96af8216abc71ff5f1",
+            "type": "edu:InstantSelector",
+            "value": "00:00:26.04^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fotogrammetria",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann7",
+      "motivation": "describing",
+      "skos:note": "conceptExpansion",
+      "target": {
+        "id": "_:Ndd5aaefaa6ca40098dcdac2a5083903a",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "10",
+            "id": "_:N8bd9fdbe1dfa44848422dffbf89b5141",
+            "type": "edu:InstantSelector",
+            "value": "00:00:45.13^^xsd:dateTime"
+          },
+          "id": "_:N4e42420f7e5f428ab1a8f6e1bad6b348",
+          "startSelector": {
+            "edu:conllSentId": "8",
+            "id": "_:N6ffd6c4239d141aba3af0d6f48b8b498",
+            "type": "edu:InstantSelector",
+            "value": "00:00:35.92^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fotogrammetria",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann11",
+      "motivation": "describing",
+      "skos:note": "conceptExpansion",
+      "target": {
+        "id": "_:N7f69297c1b28464685d1ca7920777eb0",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "20",
+            "id": "_:N3a9df655a8b74826a378fc618bf00c19",
+            "type": "edu:InstantSelector",
+            "value": "00:01:36.89^^xsd:dateTime"
+          },
+          "id": "_:Nd6e6e465dd8b4cbab7cfa181faa2db7e",
+          "startSelector": {
+            "edu:conllSentId": "18",
+            "id": "_:N3ac335187ef44c849d30cd8655568b44",
+            "type": "edu:InstantSelector",
+            "value": "00:01:20.28^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fotogrammetria",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann27",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_fotogrammetria_analitica"
+        },
+        "id": "_:N1c1a0f9c5ce944169a447e6988f4f142",
+        "selector": {
+          "edu:conllSentId": "29",
+          "edu:conllWordId": "1",
+          "id": "_:N0782bda0164b47b697792096195e5e6e",
+          "type": "edu:InstantSelector",
+          "value": "00:02:25.44^^xsd:dateTime"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fotogrammetria_digitale",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann18",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:N0d77ee6902984877bb7c8ef9c3321567",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "0",
+            "id": "_:Nf34aa337d62647d6a50c9330959be042",
+            "type": "edu:InstantSelector",
+            "value": "00:03:04.10^^xsd:dateTime"
+          },
+          "id": "_:N7d9806249a344ce5a65270520c9fe7fc",
+          "startSelector": {
+            "edu:conllSentId": "33",
+            "id": "_:N9ec6569e241a4db4aea3c0d8e625bd60",
+            "type": "edu:InstantSelector",
+            "value": "00:02:46.00^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fotogrammetria",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann34",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_fotogrammetria_aerea"
+        },
+        "id": "_:N4c2ebe4fad7848d48ebbe2fff2609cab",
+        "selector": {
+          "edu:conllSentId": "38",
+          "edu:conllWordId": "6",
+          "id": "_:N46df4787288e496d898640b335017ba9",
+          "type": "edu:InstantSelector",
+          "value": "00:03:11.84^^xsd:dateTime"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_immagini_analogiche",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann30",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_fotogrammetria_analogica"
+        },
+        "id": "_:Nc93a6ceddcc34d03850a260986cc6fa7",
+        "selector": {
+          "edu:conllSentId": "31",
+          "edu:conllWordId": "1",
+          "id": "_:N8375e35ee19943808a18ac6431cf67a3",
+          "type": "edu:InstantSelector",
+          "value": "00:02:37.48^^xsd:dateTime"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fotogrammetria_analogica",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann15",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:Nc7bb6318f2e44531b940cf4313ee99db",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "29",
+            "id": "_:Nf48e0b937ef14a4e860b6101767d54d6",
+            "type": "edu:InstantSelector",
+            "value": "00:02:25.10^^xsd:dateTime"
+          },
+          "id": "_:Nc055960e929c4ec5b8faf4f319c67419",
+          "startSelector": {
+            "edu:conllSentId": "28",
+            "id": "_:N06903f4810d240b783e3815b081bd0ba",
+            "type": "edu:InstantSelector",
+            "value": "00:02:15.90^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_matrice_bidimensionale_di_numeri",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann32",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_fotogrammetria_digitale"
+        },
+        "id": "_:N44b6d585aaa64f2192c3f3dbacd727c5",
+        "selector": {
+          "edu:conllSentId": "34",
+          "edu:conllWordId": "9",
+          "id": "_:N90f60a10173f4b788d478fc223e5d9f8",
+          "type": "edu:InstantSelector",
+          "value": "00:02:50.24^^xsd:dateTime"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_scopo_delle_misurazioni",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann9",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:Nf76a3adc485749cf8dd1cc337ae094f2",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "0",
+            "id": "_:Nd521064dbd7f4512b7545d7c432763f6",
+            "type": "edu:InstantSelector",
+            "value": "00:01:16.50^^xsd:dateTime"
+          },
+          "id": "_:N2c41041986df45269518639e1d299e81",
+          "startSelector": {
+            "edu:conllSentId": "12",
+            "id": "_:N50212dbb2e894438b8daef2303de8a6f",
+            "type": "edu:InstantSelector",
+            "value": "00:00:59.22^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_photos",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann8",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:N6fd224a96ed04875902248488f43dcef",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "10",
+            "id": "_:Nb049e8d37617445e8e68aa1c7f91c735",
+            "type": "edu:InstantSelector",
+            "value": "00:00:45.12^^xsd:dateTime"
+          },
+          "id": "_:Nef6d4ce2bf2f4e23b7c148c1e0896898",
+          "startSelector": {
+            "edu:conllSentId": "8",
+            "id": "_:Nfe9dc447986a4306984b8e437104152c",
+            "type": "edu:InstantSelector",
+            "value": "00:00:35.92^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_gramma",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann6",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:N09fbf76d52dd44a7af4a0f887d84fd13",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "10",
+            "id": "_:N0a14a3dc227441e08a4bec90b7126e18",
+            "type": "edu:InstantSelector",
+            "value": "00:00:45.12^^xsd:dateTime"
+          },
+          "id": "_:N2bf2ef76b12f455ba3fb2e82c55d7206",
+          "startSelector": {
+            "edu:conllSentId": "8",
+            "id": "_:Ned85252f8a524b1180fb22870ed109da",
+            "type": "edu:InstantSelector",
+            "value": "00:00:35.92^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_aggiornamento_di_mappe",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann12",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:Nd0329884fa9a4bcf866d10f61727018a",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "22",
+            "id": "_:Nd0f24c4aaa514b70a411c30a390d5573",
+            "type": "edu:InstantSelector",
+            "value": "00:01:42.80^^xsd:dateTime"
+          },
+          "id": "_:N89e9831000b847c6af117ee084ace5fe",
+          "startSelector": {
+            "edu:conllSentId": "18",
+            "id": "_:N44a5548eaf0a44ed8d6f8afefd8e20dd",
+            "type": "edu:InstantSelector",
+            "value": "00:01:20.90^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fotogrammetria_analogica",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann17",
+      "motivation": "describing",
+      "skos:note": "conceptExpansion",
+      "target": {
+        "id": "_:N7e650f9130f54445b0f17129bfa19dbe",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "34",
+            "id": "_:N81ba6a64007843efb91bb559ea7732ff",
+            "type": "edu:InstantSelector",
+            "value": "00:02:46.70^^xsd:dateTime"
+          },
+          "id": "_:N0341d236f2ee4b03a60b2c07f4ac829f",
+          "startSelector": {
+            "edu:conllSentId": "31",
+            "id": "_:N3440c3e308d94347895a8ef25ae279ad",
+            "type": "edu:InstantSelector",
+            "value": "00:02:36.10^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "id": "conll_CQIEu6wFGR8",
+      "type": "Text"
+    },
+    {
+      "body": "concept_misurazioni",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann10",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:Ndacf173451c0443cab7fc0ee474e3e24",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "17",
+            "id": "_:N73847bbac4ff4188be2b632476beccd3",
+            "type": "edu:InstantSelector",
+            "value": "00:01:16.50^^xsd:dateTime"
+          },
+          "id": "_:Nf4f23c31cabd48e29ea9539b2fb98d29",
+          "startSelector": {
+            "edu:conllSentId": "14",
+            "id": "_:N95f02c7d31da4fc6906d5f7213591f76",
+            "type": "edu:InstantSelector",
+            "value": "00:01:06.02^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_mezzi_computazionali",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann29",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_fotogrammetria_analitica"
+        },
+        "id": "_:N20e74a2df994424dbb575500f13b55f3",
+        "selector": {
+          "edu:conllSentId": "29",
+          "edu:conllWordId": "1",
+          "id": "_:N29a16ca6864447a0a15393e6b3f242e0",
+          "type": "edu:InstantSelector",
+          "value": "00:02:25.44^^xsd:dateTime"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fotogrammetria",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann26",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_fotogrammetria_analogica"
+        },
+        "id": "_:Neaffff90de874a3db9d8b00598be3c8b",
+        "selector": {
+          "edu:conllSentId": "28",
+          "edu:conllWordId": "1",
+          "id": "_:Nd7d6ac126fd344ab9b3d5ac63a10ec1d",
+          "type": "edu:InstantSelector",
+          "value": "00:02:16.68^^xsd:dateTime"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_architetto_Albrecht_Meidenboy",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann21",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_fotogrammetria"
+        },
+        "id": "_:N073996e8ff2d48dfa1005aef6d3d1b63",
+        "selector": {
+          "edu:conllSentId": "4",
+          "edu:conllWordId": "5",
+          "id": "_:Nb3eef6ccdf4848fd84edad635da863f7",
+          "type": "edu:InstantSelector",
+          "value": "00:00:17.52^^xsd:dateTime"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_gramma",
+      "created": "2024-11-07T08:18:49.432774",
+      "creator": "Mario Vallarino",
+      "id": "ann22",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_fotogrammetria"
+        },
+        "id": "_:N545e364f2e7b469bb9a3c0d280f42ee9",
+        "selector": {
+          "edu:conllSentId": "4",
+          "edu:conllWordId": "5",
+          "id": "_:Naa0cab250d4f4997be175e2d3d40048c",
+          "type": "edu:InstantSelector",
+          "value": "00:00:17.52^^xsd:dateTime"
+        },
+        "source": "video_CQIEu6wFGR8",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "conll_CQIEu6wFGR8",
+      "id": "ann0",
+      "motivation": "edu:linkingConll",
+      "target": "video_CQIEu6wFGR8",
+      "type": "Annotation"
+    },
+    {
+      "id": "localVocabulary",
+      "skos:member": [
+        {
+          "id": "concept_mezzi_computazionali",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "mezzi computazionali"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_stazioni_della_fotocamera",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "stazioni della fotocamera"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_restero-immagine_digitale",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "restero-immagine digitale"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_compito_della_fotogrammetria_metrica",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "compito della fotogrammetria metrica"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_misurazioni",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "misurazioni"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_processi",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "processi"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_architetto_Albrecht_Meidenboy",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "architetto Albrecht Meidenboy"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_fotogrammetria_terrestre",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "fotogrammetria terrestre"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_scopi",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "scopi"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_modellazione_analogica",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "modellazione analogica"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_immagini",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "immagini"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_forme_geometriche",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "forme geometriche"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_acqua",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "acqua"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_posizione_degli_oggetti",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "posizione degli oggetti"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_dimensioni_enormi",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "dimensioni enormi"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_scopo_delle_misurazioni",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "scopo delle misurazioni"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_fotogrammetria_analogica",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "fotogrammetria analogica"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_modalità",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "modalità"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_banco_del_laboratorio",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "banco del laboratorio"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_immagini_fotografiche",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "immagini fotografiche"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_oggetti_di_studio",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "oggetti di studio"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_misurazioni_nelle_fotografie",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "misurazioni nelle fotografie"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_elaborazione_pratica_nell'_attuale_fase",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "elaborazione pratica nell' attuale fase"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_forme_geometriche_degli_oggetti",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "forme geometriche degli oggetti"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_metodi_di_modellazione_analogica",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "metodi di modellazione analogica"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_ripristino",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "ripristino"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_metodi",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "metodi"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_matrice_bidimensionale_di_numeri",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "matrice bidimensionale di numeri"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_spazio_tridimensionale",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "spazio tridimensionale"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_metrica",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "metrica"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_fase_di_sviluppo_della_fotogrammetria",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "fase di sviluppo della fotogrammetria"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_suolo",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "suolo"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_ripristino_delle_informazioni_spaziali",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "ripristino delle informazioni spaziali"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_caratteristiche",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "caratteristiche"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_compiti_fotogrammetrici",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "compiti fotogrammetrici"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_planimetrie_topografiche_per_vari_scopi",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "planimetrie topografiche per vari scopi"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_oggetti",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "oggetti"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_fotogrammetria_digitale",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "fotogrammetria digitale"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_interpretativo",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "interpretativo"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_direzione_della_fotogrammetria_moderna",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "direzione della fotogrammetria moderna"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_fotogrammetria_analitica",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "fotogrammetria analitica"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_visualizzazione",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "visualizzazione"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_banco",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "banco"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_disciplina_scientifica",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "disciplina scientifica"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_compito",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "compito"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_fotogrammetria_moderna",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "fotogrammetria moderna"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_informazioni_spaziali_sugli_oggetti",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "informazioni spaziali sugli oggetti"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_processi_di_misurazione",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "processi di misurazione"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_aggiornamento_di_mappe",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "aggiornamento di mappe"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_risoluzione_dei_principali_compiti_fotogrammetrici",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "risoluzione dei principali compiti fotogrammetrici"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_ripristino_del_modello_spaziale",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "ripristino del modello spaziale"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_matrice_bidimensionale",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "matrice bidimensionale"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_matrice",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "matrice"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_serie_di_presentazioni_video",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "serie di presentazioni video"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_photos",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "photos"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_dimensioni",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "dimensioni"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_immagini_analogiche",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "immagini analogiche"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_fotogrammetria_aerea",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "fotogrammetria aerea"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_forma",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "forma"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_fotografie",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "fotografie"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_parole_greche",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "parole greche"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_fase_di_sviluppo",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "fase di sviluppo"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_caratteristiche_degli_oggetti",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "caratteristiche degli oggetti"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_fotogrammetria_metrica",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "fotogrammetria metrica"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_spazio",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "spazio"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_elaborazione_pratica",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "elaborazione pratica"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_immagini_stereo",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "immagini stereo"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_modalità_di_fotografia",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "modalità di fotografia"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_superficie_terrestre",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "superficie terrestre"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_planimetrie_topografiche",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "planimetrie topografiche"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_modello_spaziale",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "modello spaziale"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_sviluppo_della_fotogrammetria",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "sviluppo della fotogrammetria"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_fotogrammetria",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "fotogrammetria"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_posizione",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "posizione"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_computer",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "computer"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_oggetti_dalle_loro_fotografie",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "oggetti dalle loro fotografie"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_presentazioni_video",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "presentazioni video"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_risoluzione",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "risoluzione"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_metreo",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "metreo"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_urbanistica",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "urbanistica"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_informazioni_spaziali",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "informazioni spaziali"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_numeri",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "numeri"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_modalità_di_fotografia_degli_oggetti",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "modalità di fotografia degli oggetti"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_gramma",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "gramma"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_sviluppo",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "sviluppo"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_geologia",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "geologia"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_fotografia_degli_oggetti",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "fotografia degli oggetti"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_base_di_immagini_fotografiche",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "base di immagini fotografiche"
+          },
+          "type": "skos:Concept"
+        }
+      ],
+      "type": "skos:Collection"
+    }
+  ]
+}
