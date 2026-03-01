@@ -1,0 +1,2 @@
+Here are contained all assets related to the Modern Library asset pack used for the environment.
+*_BuiltData.uasset files are not included in the project release, as they are automatically rebuilt when the project is opened in Unreal Engine.

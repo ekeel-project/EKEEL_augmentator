@@ -1,0 +1,2 @@
+Here are contained all elements related to custom levels for the application.
+*_BuiltData.uasset files are not included in the project release, as they are automatically rebuilt when the project is opened in Unreal Engine.

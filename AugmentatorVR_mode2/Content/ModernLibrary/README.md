@@ -1,1 +1,0 @@
-Here are contained all assets related to the Modern Library asset pack used for the environment.

@@ -1,0 +1,967 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    {
+      "@base": "https://edurell.dibris.unige.it/annotator/manu/zTcsSwKffL4/",
+      "@version": 1.1,
+      "edu": "https://teldh.github.io/edurell#"
+    }
+  ],
+  "@graph": [
+    {
+      "body": "concept_cloud_computing",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann28",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_caratteristica"
+        },
+        "id": "_:Nbd261a4ea9d5461fb153e651603f5595",
+        "selector": {
+          "edu:conllSentId": "69",
+          "edu:conllWordId": "3",
+          "id": "_:N4bf8c95e720b42caabc0932106ff70a8",
+          "type": "edu:InstantSelector",
+          "value": "00:06:25.42^^xsd:dateTime"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_infrastruttura_cloud",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann23",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_livello_astratto"
+        },
+        "id": "_:N015db3c1b2a64e44a31e8f833e9f2634",
+        "selector": {
+          "edu:conllSentId": "28",
+          "edu:conllWordId": "10",
+          "id": "_:Nb9a92ae86e2740a99ec551457c9f1d65",
+          "type": "edu:InstantSelector",
+          "value": "00:02:37.58^^xsd:dateTime"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_livello_fisico",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann9",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:Ncc577fcd2d684c0b9bde6b7c09069bf2",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "31",
+            "id": "_:N8330716fc8864858a0d06b6ccaeb3212",
+            "type": "edu:InstantSelector",
+            "value": "00:02:48.30^^xsd:dateTime"
+          },
+          "id": "_:N5f3993b8fe124759bb9346deb302e62e",
+          "startSelector": {
+            "edu:conllSentId": "29",
+            "id": "_:N7bd6577685154c5b842ea0eac6d6ff98",
+            "type": "edu:InstantSelector",
+            "value": "00:02:39.28^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_modello_di_cloud",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann24",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_SaaS"
+        },
+        "id": "_:Ne2de6955ad64470eb9f556bbe48503d5",
+        "selector": {
+          "edu:conllSentId": "36",
+          "edu:conllWordId": "3",
+          "id": "_:N5de93e46c47841e2a772002d12936d2f",
+          "type": "edu:InstantSelector",
+          "value": "00:03:21.78^^xsd:dateTime"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_servizio",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann18",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_risorse_hardware"
+        },
+        "id": "_:Nd2de44617e4c4de79915c98273ff0b7b",
+        "selector": {
+          "edu:conllSentId": "1",
+          "edu:conllWordId": "19",
+          "id": "_:N6908d9c907bc4151beb84000282d6d7d",
+          "type": "edu:InstantSelector",
+          "value": "00:00:13.28^^xsd:dateTime"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_On-Premises",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann15",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:N5d99158070f2497bbdb4026d84b22c3b",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "60",
+            "id": "_:N2b53f50d13654afdb0e3ddf6dd23b7c6",
+            "type": "edu:InstantSelector",
+            "value": "00:05:38.12^^xsd:dateTime"
+          },
+          "id": "_:N1a457f4f7b474b3f82a49fed99d87c7b",
+          "startSelector": {
+            "edu:conllSentId": "55",
+            "id": "_:Na2a36def9a6c43ceba5f70ed31f0e804",
+            "type": "edu:InstantSelector",
+            "value": "00:05:14.24^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_cloud_computing",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann1",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:Nd879ff64b092416bbe1732880e12715a",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "3",
+            "id": "_:Naa9e3891be504e02af0a511eb772213c",
+            "type": "edu:InstantSelector",
+            "value": "00:00:20.06^^xsd:dateTime"
+          },
+          "id": "_:Neb9804e0f68e42dd8e8e38adcde7516e",
+          "startSelector": {
+            "edu:conllSentId": "0",
+            "id": "_:Nc8066a0c886149c19705b8400e60c75d",
+            "type": "edu:InstantSelector",
+            "value": "00:00:03.12^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_servizio",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann19",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_software"
+        },
+        "id": "_:N28c1f783d9434c85a6c43329f4438e68",
+        "selector": {
+          "edu:conllSentId": "2",
+          "edu:conllWordId": "2",
+          "id": "_:N6fce2dd3ba874a3d8e83e4d7bbeca4ef",
+          "type": "edu:InstantSelector",
+          "value": "00:00:15.20^^xsd:dateTime"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_risorse_hardware",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann6",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:Nf0d344a32d4142489034b1d185071048",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "20",
+            "id": "_:N72d7defab3c04dc48feb8116a9611951",
+            "type": "edu:InstantSelector",
+            "value": "00:01:39.12^^xsd:dateTime"
+          },
+          "id": "_:Na808a38e5673435e89941d2998b924b3",
+          "startSelector": {
+            "edu:conllSentId": "17",
+            "id": "_:N1d98ea827c1445b085ec55fc2e721766",
+            "type": "edu:InstantSelector",
+            "value": "00:01:29.28^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fornitore_del_servizio",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann7",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:Ncb38f389081d4424b13a95712cf68e9f",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "26",
+            "id": "_:Ncb31a48e43a14977ae5a402c62c22d6b",
+            "type": "edu:InstantSelector",
+            "value": "00:02:18.74^^xsd:dateTime"
+          },
+          "id": "_:Nc27e85802818499390a10e57e06a00ba",
+          "startSelector": {
+            "edu:conllSentId": "22",
+            "id": "_:N3137f3f883954ba1bb8cff806d8e231b",
+            "type": "edu:InstantSelector",
+            "value": "00:01:50.56^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_modello_di_cloud",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann11",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:N8c7ecda0fcff473c9eee74f350323850",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "36",
+            "id": "_:Nb510214630424850883ca03906e40081",
+            "type": "edu:InstantSelector",
+            "value": "00:03:19.10^^xsd:dateTime"
+          },
+          "id": "_:N9ef301bedc7943148173d98af69a3f3d",
+          "startSelector": {
+            "edu:conllSentId": "35",
+            "id": "_:N17f39cd0d9514b7cb4b4c8e5162a722c",
+            "type": "edu:InstantSelector",
+            "value": "00:03:11.70^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_software",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann5",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:N1f1e7dd67b404ae58563d44817c79938",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "17",
+            "id": "_:N56033ba69ed74591a6931f66725d532f",
+            "type": "edu:InstantSelector",
+            "value": "00:01:28.62^^xsd:dateTime"
+          },
+          "id": "_:N47bc1d54f03a4fcfba059230f4a7bbcd",
+          "startSelector": {
+            "edu:conllSentId": "13",
+            "id": "_:Na0faba9aaa544193922acbd83b12ff2a",
+            "type": "edu:InstantSelector",
+            "value": "00:01:11.56^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_PaaS",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann13",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:N346a1b5cb77f4113933e2a07a2aa5a9f",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "49",
+            "id": "_:Nb1d340588dec400aade60dbfe7edd860",
+            "type": "edu:InstantSelector",
+            "value": "00:04:33.42^^xsd:dateTime"
+          },
+          "id": "_:N8a41f0e173944e4b9a1e5e759c551ca8",
+          "startSelector": {
+            "edu:conllSentId": "45",
+            "id": "_:N0097615bd88e42828898481818e062cc",
+            "type": "edu:InstantSelector",
+            "value": "00:04:12.78^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_infrastruttura_cloud",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann8",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:N305b31e6118643acb33bd6bc948282bc",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "29",
+            "id": "_:Nbd622b8cde81445fa0e675399cfdf1cf",
+            "type": "edu:InstantSelector",
+            "value": "00:02:38.50^^xsd:dateTime"
+          },
+          "id": "_:N5c52baf4773841cf81f674ac2da2c7bc",
+          "startSelector": {
+            "edu:conllSentId": "26",
+            "id": "_:N3099301ebfd6494395ed16de31514f09",
+            "type": "edu:InstantSelector",
+            "value": "00:02:23.08^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_servizio",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann4",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:Ne4dc93d64b4e4b48880586a10b6f7fdb",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "11",
+            "id": "_:N3b91885d6aca4a5ea64f43f3e3791f7f",
+            "type": "edu:InstantSelector",
+            "value": "00:01:03.30^^xsd:dateTime"
+          },
+          "id": "_:Nfcc3c5be32714a26a8161c13dabb1307",
+          "startSelector": {
+            "edu:conllSentId": "8",
+            "id": "_:N2616a547059c4674a76f07181eee2dda",
+            "type": "edu:InstantSelector",
+            "value": "00:00:48.50^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_modello_di_cloud",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann26",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_IaaS"
+        },
+        "id": "_:N15253ef832784d6bb888b4991bfb0c75",
+        "selector": {
+          "edu:conllSentId": "49",
+          "edu:conllWordId": "10",
+          "id": "_:N8ff23413aaa841d9bca363a59ad76ac8",
+          "type": "edu:InstantSelector",
+          "value": "00:04:39.90^^xsd:dateTime"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_cloud_computing",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann20",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_servizio"
+        },
+        "id": "_:Ne22de7183bd5450fb375f92f07fb0ed6",
+        "selector": {
+          "edu:conllSentId": "11",
+          "edu:conllWordId": "1",
+          "id": "_:Ncb66892513da4eb3873b922b7f6bfb42",
+          "type": "edu:InstantSelector",
+          "value": "00:01:04.40^^xsd:dateTime"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_servizio",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann27",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_modello_di_cloud"
+        },
+        "id": "_:Nadaf95bef0f14f189ffd91a93c310ae8",
+        "selector": {
+          "edu:conllSentId": "60",
+          "edu:conllWordId": "9",
+          "id": "_:N8dbb314e94bf4fea87a125e887a65e3b",
+          "type": "edu:InstantSelector",
+          "value": "00:05:42.96^^xsd:dateTime"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "id": "conll_zTcsSwKffL4",
+      "type": "Text"
+    },
+    {
+      "body": "concept_infrastruttura_cloud",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann22",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_livello_fisico"
+        },
+        "id": "_:Ne742a8704f274f8d8b6f3bb91d0f1bfe",
+        "selector": {
+          "edu:conllSentId": "28",
+          "edu:conllWordId": "6",
+          "id": "_:Nd5e05cb1d95240f4825d6d6d120aa0a1",
+          "type": "edu:InstantSelector",
+          "value": "00:02:36.36^^xsd:dateTime"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "conll_zTcsSwKffL4",
+      "id": "ann0",
+      "motivation": "edu:linkingConll",
+      "target": "video_zTcsSwKffL4",
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_livello_astratto",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann10",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:N22433bb0ad5e4875bfba04daadab30f8",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "35",
+            "id": "_:N9f86dcf3d3184297b7ec943bd83a14b0",
+            "type": "edu:InstantSelector",
+            "value": "00:03:09.80^^xsd:dateTime"
+          },
+          "id": "_:Ne0453d1d107a419fa87fa5629ddb217b",
+          "startSelector": {
+            "edu:conllSentId": "31",
+            "id": "_:N622244564c4c46bf9e0df6e793a27ab0",
+            "type": "edu:InstantSelector",
+            "value": "00:02:49.30^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_modello_di_cloud",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann25",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_PaaS"
+        },
+        "id": "_:N53e371fedb0f487d864119b4676375f8",
+        "selector": {
+          "edu:conllSentId": "46",
+          "edu:conllWordId": "0",
+          "id": "_:Nf5dd542972574760a30988c7dfa2d299",
+          "type": "edu:InstantSelector",
+          "value": "00:04:17.76^^xsd:dateTime"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_fornitore_del_servizio",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann21",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_infrastruttura_cloud"
+        },
+        "id": "_:N49a25848c67a462eb221dff7bc5f1d51",
+        "selector": {
+          "edu:conllSentId": "26",
+          "edu:conllWordId": "1",
+          "id": "_:N01f859af0cda49f0bcffe9a81154c86d",
+          "type": "edu:InstantSelector",
+          "value": "00:02:23.18^^xsd:dateTime"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_servizio",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann30",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_fornitore_del_servizio"
+        },
+        "id": "_:Nb573a1cddebf45f89d7ee676ae5df700",
+        "selector": {
+          "edu:conllSentId": "73",
+          "edu:conllWordId": "12",
+          "id": "_:N0a9d3d20e20c46c0a4124abedcb7882d",
+          "type": "edu:InstantSelector",
+          "value": "00:06:45.76^^xsd:dateTime"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_cloud_computing",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann2",
+      "motivation": "describing",
+      "skos:note": "conceptExpansion",
+      "target": {
+        "id": "_:N7a30034209bf46c6b947151b0bba2b9d",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "8",
+            "id": "_:Nc73c23ed1516404199cacbd8a77be1e0",
+            "type": "edu:InstantSelector",
+            "value": "00:00:46.44^^xsd:dateTime"
+          },
+          "id": "_:N2df8c37bdd5849f7855fc214bbf5c891",
+          "startSelector": {
+            "edu:conllSentId": "5",
+            "id": "_:N647cf70162c7421c829b3bd59aa51626",
+            "type": "edu:InstantSelector",
+            "value": "00:00:29.90^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_caratteristica",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann17",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:Ne4394bffa2184f119b9c9c0245d862f7",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "83",
+            "id": "_:N7c91740a03a34b8aac247b8ed59addb7",
+            "type": "edu:InstantSelector",
+            "value": "00:07:58.12^^xsd:dateTime"
+          },
+          "id": "_:N20571b878be74b169269d2f57ca89426",
+          "startSelector": {
+            "edu:conllSentId": "69",
+            "id": "_:N6d45335967c54ffab146010b28502036",
+            "type": "edu:InstantSelector",
+            "value": "00:06:24.98^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_SaaS",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann12",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:Neb971b2b58374425bc6a31337679f117",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "38",
+            "id": "_:N72bb5b475c2b429c8160c3324eabf535",
+            "type": "edu:InstantSelector",
+            "value": "00:03:32.62^^xsd:dateTime"
+          },
+          "id": "_:Ne21c6dc5ec004ea4a638548742a91f23",
+          "startSelector": {
+            "edu:conllSentId": "36",
+            "id": "_:N2a1b611657404dca9f5abb8968c8185c",
+            "type": "edu:InstantSelector",
+            "value": "00:03:20.50^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_IaaS",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann14",
+      "motivation": "describing",
+      "skos:note": "conceptDefinition",
+      "target": {
+        "id": "_:N0ca60e640c9846f28647677c73d6458f",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "53",
+            "id": "_:Na22b97c52e2c4f43b3a0dd76b7369521",
+            "type": "edu:InstantSelector",
+            "value": "00:04:57.76^^xsd:dateTime"
+          },
+          "id": "_:N28c9d6d6aad34431a9b28423c3ed439b",
+          "startSelector": {
+            "edu:conllSentId": "49",
+            "id": "_:N988fdc797fc0404b9f781eb176de43da",
+            "type": "edu:InstantSelector",
+            "value": "00:04:36.13^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "id": "video_zTcsSwKffL4",
+      "type": "Video"
+    },
+    {
+      "body": "concept_On-Premises",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann29",
+      "motivation": "edu:linkingPrerequisite",
+      "skos:note": "StrongPrerequisite",
+      "target": {
+        "dcterms:subject": {
+          "id": "concept_modello_di_cloud"
+        },
+        "id": "_:Nf407d1d96afd470e84e16ba735011940",
+        "selector": {
+          "edu:conllSentId": "70",
+          "edu:conllWordId": "3",
+          "id": "_:N20d409b95fff4f88b6807de5347a8ad9",
+          "type": "edu:InstantSelector",
+          "value": "00:06:28.96^^xsd:dateTime"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_cloud_computing",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann3",
+      "motivation": "describing",
+      "skos:note": "conceptExpansion",
+      "target": {
+        "id": "_:Nd784b535869e4d49a477802dc788fc4d",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "11",
+            "id": "_:Nb475b85cffe343d1a406dd5b880b3293",
+            "type": "edu:InstantSelector",
+            "value": "00:01:03.30^^xsd:dateTime"
+          },
+          "id": "_:Ndde154c52a8b47a2a98ee720cb39cca2",
+          "startSelector": {
+            "edu:conllSentId": "8",
+            "id": "_:N34d46ce1fd1f4bb19bcc9ebfdee304b7",
+            "type": "edu:InstantSelector",
+            "value": "00:00:48.50^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "body": "concept_modello_di_cloud",
+      "created": "2024-11-30T09:46:52.820303",
+      "creator": "Mario Vallarino",
+      "id": "ann16",
+      "motivation": "describing",
+      "skos:note": "conceptExpansion",
+      "target": {
+        "id": "_:N9ff968bc45444b328927b0675ae340be",
+        "selector": {
+          "endSelector": {
+            "edu:conllSentId": "69",
+            "id": "_:N6e1309e1d6c340b994d661d49969d9aa",
+            "type": "edu:InstantSelector",
+            "value": "00:06:22.02^^xsd:dateTime"
+          },
+          "id": "_:N289dfc07a9004cdeaac84acc7be7e66a",
+          "startSelector": {
+            "edu:conllSentId": "59",
+            "id": "_:Nb344d33a8b3a4f7abcfbd7d4cb4e56a2",
+            "type": "edu:InstantSelector",
+            "value": "00:05:37.28^^xsd:dateTime"
+          },
+          "type": "RangeSelector"
+        },
+        "source": "video_zTcsSwKffL4",
+        "type": "SpecificResource"
+      },
+      "type": "Annotation"
+    },
+    {
+      "id": "localVocabulary",
+      "skos:member": [
+        {
+          "id": "concept_cloud_computing",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "cloud computing"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_servizio",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "servizio"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_IaaS",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "IaaS"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_software",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "software"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_caratteristica",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "caratteristica"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_fornitore_del_servizio",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "fornitore del servizio"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_On-Premises",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "On-Premises"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_livello_fisico",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "livello fisico"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_risorse_hardware",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "risorse hardware"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_livello_astratto",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "livello astratto"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_infrastruttura_cloud",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "infrastruttura cloud"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_PaaS",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "PaaS"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_SaaS",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "SaaS"
+          },
+          "type": "skos:Concept"
+        },
+        {
+          "id": "concept_modello_di_cloud",
+          "skos:prefLabel": {
+            "@language": "it",
+            "@value": "modello di cloud"
+          },
+          "type": "skos:Concept"
+        }
+      ],
+      "type": "skos:Collection"
+    }
+  ]
+}
