@@ -50,5 +50,5 @@ cd EKEEL_augmentator
 - Connect the headset (Meta Quest 2/3) and verify it is available for VR preview.
 - Run from the editor
 
-### Responsible unit
+## Responsible unit
 This component was developed and maintained by the University of Genoa (UniGe).
