@@ -9,7 +9,7 @@ Internal note (not rendered): keep this README aligned across all EKEEL delivera
 
 - **Project:** EKEEL — PRIN 2022 PNRR
 - **Deliverable:** **D5.1** — Prototype development
-- **Repository:** `ekeel-project/EKEEL_augmentator`
+- **Repository:** `ekeel-project/EKEEL-video-augmentation`
 - **Website:** https://ekeel.dibris.unige.it/
 
 ## What’s in this repository
@@ -39,8 +39,8 @@ Internal note (not rendered): keep this README aligned across all EKEEL delivera
 
 ### Installation
 ```bash
-git clone https://github.com/ekeel-project/EKEEL_augmentator.git
-cd EKEEL_augmentator
+git clone https://github.com/ekeel-project/EKEEL-video-augmentation.git
+cd EKEEL-video-augmentation
 ```
 
 **Quick start**
