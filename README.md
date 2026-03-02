@@ -28,10 +28,10 @@ Internal note (not rendered): keep this README aligned across all EKEEL delivera
 - VR headset: Meta Quest 2 / Meta Quest 3
 
 **Runtime / tooling**
-- Unreal Engine **5.3.2**
+- Unreal Engine 5.3.2
 - Unreal plugins:
-  - **Blueprint FileSDK**
-  - **VaRest**
+  - Blueprint FileSDK
+  - VaRest
 
 **Hardware**
 - VR-capable GPU (e.g., GTX 1080 or better)
