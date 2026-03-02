@@ -1,4 +1,4 @@
-# EKEEL — Augmentator
+# EKEEL — Video Augmentation
 
 <!--
 Internal note (not rendered): keep this README aligned across all EKEEL deliverable repositories.
