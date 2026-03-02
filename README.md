@@ -42,7 +42,7 @@ Internal note (not rendered): keep this README aligned across all EKEEL delivera
 git clone https://github.com/ekeel-project/EKEEL_augmentator.git
 cd EKEEL_augmentator
 
-## Quick start
+** Quick start**
 - Run (Unreal Editor)
 - Install and launch Unreal Engine 5.3.2 (Epic Games Launcher).
 - Open the project by selecting the .uproject file inside code/.
