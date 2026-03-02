@@ -5,17 +5,16 @@ Internal note (not rendered): keep this README aligned across all EKEEL delivera
 -->
 
 ## Overview
-**<1–2 sentences on what this component does and who it is for.>**
+**This repository contains a research prototype for knowledge-graph-based augmentation of video lessons in an immersive VR environment. It enables experimental use and reproducible evaluation.**
 
 - **Project:** EKEEL — PRIN 2022 PNRR
-- **Deliverable:** **D<…>.<…>** — <deliverable title>
-- **Repository:** `ekeel-project/<REPO_NAME>`
+- **Deliverable:** **D5.1** — Prototype development
+- **Repository:** `ekeel-project/EKEEL_augmentator`
 - **Website:** https://ekeel.dibris.unige.it/
 
 ## What’s in this repository
 - `code/` — Source code for the software component.
 - `docs/` — Technical documentation, manuals, and usage notes.
-- `misc/` — Additional materials (examples, scripts, notes). *(if applicable)*
 
 
 ## Quick start
@@ -23,8 +22,8 @@ Internal note (not rendered): keep this README aligned across all EKEEL delivera
 
 ### Requirements
 - OS: <Windows/macOS/Linux/VR device>
-- Runtime / tooling: <Python X.Y / Node X.Y / Unreal Engine version / etc.>
-- Optional: <GPU / headset / external dependencies>
+- Runtime tooling: Unreal Engine version 5.3
+- Optional: GPU  and headset / external dependencies
 
 ### Installation
 ```bash
