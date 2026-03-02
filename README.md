@@ -17,19 +17,38 @@ Internal note (not rendered): keep this README aligned across all EKEEL delivera
 - `docs/` — Technical documentation, manuals, and usage notes.
 
 
-## Quick start
-> This section should be **copy-paste runnable** (or the shortest possible set of steps).
-
 ### Requirements
-- OS: <Windows/macOS/Linux/VR device>
-- Runtime tooling: Unreal Engine version 5.3
-- Optional: GPU  and headset / external dependencies
+**Accounts / apps**
+- Epic Games account
+- Meta account
+- Meta Quest App
+
+**OS / device**
+- Windows (recommended for Unreal + Quest development)
+- VR headset: Meta Quest 2 / Meta Quest 3
+
+**Runtime / tooling**
+- Unreal Engine **5.3.2**
+- Unreal plugins:
+  - **Blueprint FileSDK**
+  - **VaRest**
+
+**Hardware**
+- VR-capable GPU (e.g., GTX 1080 or better)
+- VR-capable CPU (e.g., i7-7700K or better)
 
 ### Installation
 ```bash
-# TODO: minimal install steps
-# e.g., create env, install deps
+git clone https://github.com/ekeel-project/EKEEL_augmentator.git
+cd EKEEL_augmentator
 
+## Quick start
+- Run (Unreal Editor)
+- Install and launch Unreal Engine 5.3.2 (Epic Games Launcher).
+- Open the project by selecting the .uproject file inside code/.
+- Ensure the required plugins are installed/enabled (Blueprint FileSDK, VaRest).
+- Connect the headset (Meta Quest 2/3) and verify it is available for VR preview.
+- Run from the editor
 
 ### Responsible unit
 This component was developed and maintained by the University of Genoa (UniGe).
